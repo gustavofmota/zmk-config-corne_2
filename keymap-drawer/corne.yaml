@@ -13,19 +13,19 @@ layers:
   - O
   - P
   - '-'
-  - LSHIFT
-  - A
-  - S
-  - D
+  - '='
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
   - F
   - G
   - H
   - J
-  - K
-  - L
-  - ;
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: ;, h: LGUI}
   - ''''
-  - LEFT CONTROL
+  - '`'
   - Z
   - X
   - C
@@ -36,15 +36,15 @@ layers:
   - ','
   - .
   - /
-  - LEFT ALT
-  - LEFT GUI
+  - \
+  - LSHIFT
   - nav
   - BSPC
   - SPACE
   - symbols
   - ENTER
   symbols:
-  - {t: ▽, type: trans}
+  - Gui+Ctl+ TAB
   - '1'
   - '2'
   - '3'
@@ -69,16 +69,16 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - '~'
-  - '|'
-  - '='
-  - +
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '{'
   - '}'
-  - \
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -97,8 +97,8 @@ layers:
   - Alt+ DOWN
   - Alt+ UP
   - Alt+ RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG DN
+  - PG UP
   - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,8 +121,8 @@ layers:
   - Gui+ DOWN
   - Gui+ UP
   - Gui+ RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - END
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -142,6 +142,18 @@ layers:
   - F9
   - F10
   - F12
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - RGB HUD
+  - RGB HUI
+  - RGB SPD
+  - RGB SPI
+  - RGB EFF
+  - RGB TOG
   - PP
   - PREV
   - NEXT
@@ -150,20 +162,8 @@ layers:
   - VOL UP
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB BRD
+  - RGB BRI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
